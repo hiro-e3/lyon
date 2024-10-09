@@ -175,11 +175,6 @@
 //! can be used to get an idea of how to render the geometry (in this case
 //! using wgpu).
 
-pub extern crate lyon_algorithms;
-#[cfg(feature = "extra")]
-pub extern crate lyon_extra;
-pub extern crate lyon_tessellation;
-
 pub use lyon_algorithms as algorithms;
 #[cfg(feature = "extra")]
 pub use lyon_extra as extra;
