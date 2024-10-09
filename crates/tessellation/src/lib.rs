@@ -216,7 +216,7 @@ mod fuzz_tests;
 
 pub use crate::path::math;
 
-pub use crate::path::geom;
+use crate::path::geom;
 
 #[doc(inline)]
 pub use crate::event_queue::*;

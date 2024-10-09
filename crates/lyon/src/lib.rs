@@ -179,7 +179,6 @@ pub use lyon_algorithms as algorithms;
 #[cfg(feature = "extra")]
 pub use lyon_extra as extra;
 pub use lyon_tessellation as tessellation;
-pub use tessellation::geom;
-pub use tessellation::path;
-
+pub use lyon_geom as geom;
+pub use lyon_path as path;
 pub use path::math;
